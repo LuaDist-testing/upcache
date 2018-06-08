@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
-version = '0.6.2-1'
+version = '0.7.0-1'
 package = "upcache"
 -- LuaDist source
 source = {
-  tag = "0.6.2-1",
+  tag = "0.7.0-1",
   url = "git://github.com/LuaDist-testing/upcache.git"
 }
 -- Original source
@@ -19,7 +19,7 @@ description = {
 }
 dependencies = {
    "lua >= 5.1",
-   "lua-resty-jwt >= 0.1.5",
+   "lua-resty-jwt >= 0.1.11",
    "lua-resty-string >= 0.09",
    "lua-messagepack >= 0.3.4"
 }
