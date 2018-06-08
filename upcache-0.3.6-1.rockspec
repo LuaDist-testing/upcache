@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
-version = '0.3.5-1'
+version = '0.3.6-1'
 package = "upcache"
 -- LuaDist source
 source = {
-  tag = "0.3.5-1",
+  tag = "0.3.6-1",
   url = "git://github.com/LuaDist-testing/upcache.git"
 }
 -- Original source
@@ -26,7 +26,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ['upcache.scope'] = "upcache/scope.lua",
-      ['upcache.tag'] = "upcache/tag.lua"
+      ['upcache'] = "upcache.lua"
    }
 }
