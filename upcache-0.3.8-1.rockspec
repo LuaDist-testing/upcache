@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
-version = '0.3.7-1'
+version = '0.3.8-1'
 package = "upcache"
 -- LuaDist source
 source = {
-  tag = "0.3.7-1",
+  tag = "0.3.8-1",
   url = "git://github.com/LuaDist-testing/upcache.git"
 }
 -- Original source
